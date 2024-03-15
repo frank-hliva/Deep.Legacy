@@ -1,6 +1,6 @@
 # Deep Legacy
 
-MVC Web framework and server written in F# lang. for .NET Framework 4.8
+MVC Web framework and server written in F# lang. for .NET Framework 4.8 \
 Version: *3.0.1*
 
 ## License:
