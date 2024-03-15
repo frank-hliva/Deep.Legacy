@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Deep", "Deep\Deep.fsproj", "{32C6EC0F-AB0B-48FD-8C77-5FF75A3AA538}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "App", "App\App.fsproj", "{CD3028A7-F13A-4395-A046-8520A51D33CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{14150C24-46CC-4615-8B33-F93F36F52877}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE.md = LICENSE.md
+		readme.md = readme.md
+		todo.txt = todo.txt
+	EndProjectSection
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Deep.View.DotLiquid", "Deep.View.DotLiquid\Deep.View.DotLiquid.fsproj", "{6B369962-9B1D-4D36-A64C-0A02826DFAFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotLiquid", "DotLiquid\DotLiquid\DotLiquid.csproj", "{CB9372CD-9C1D-47AB-92D8-702D4D68324F}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Deep.Imaging", "Deep.Imaging\Deep.Imaging.fsproj", "{A9545675-4438-4166-8074-29D08497822D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32C6EC0F-AB0B-48FD-8C77-5FF75A3AA538}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32C6EC0F-AB0B-48FD-8C77-5FF75A3AA538}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32C6EC0F-AB0B-48FD-8C77-5FF75A3AA538}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32C6EC0F-AB0B-48FD-8C77-5FF75A3AA538}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD3028A7-F13A-4395-A046-8520A51D33CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD3028A7-F13A-4395-A046-8520A51D33CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD3028A7-F13A-4395-A046-8520A51D33CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD3028A7-F13A-4395-A046-8520A51D33CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B369962-9B1D-4D36-A64C-0A02826DFAFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B369962-9B1D-4D36-A64C-0A02826DFAFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B369962-9B1D-4D36-A64C-0A02826DFAFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B369962-9B1D-4D36-A64C-0A02826DFAFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB9372CD-9C1D-47AB-92D8-702D4D68324F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB9372CD-9C1D-47AB-92D8-702D4D68324F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB9372CD-9C1D-47AB-92D8-702D4D68324F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB9372CD-9C1D-47AB-92D8-702D4D68324F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9545675-4438-4166-8074-29D08497822D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9545675-4438-4166-8074-29D08497822D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9545675-4438-4166-8074-29D08497822D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9545675-4438-4166-8074-29D08497822D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BCEED4FC-DB20-4DC9-93FD-0E3D686D1E11}
+	EndGlobalSection
+EndGlobal

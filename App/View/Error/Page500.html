@@ -1,0 +1,14 @@
+﻿{% extends "Layout.html" %}
+{% block content %}
+<article class="container">
+    <header>
+        <h1>500 - Internal Server Error</h1>
+    </header>
+    <div class="body">
+        {% if msg != null %}
+        <p>{{Message}}</p>
+        {% endif %}
+        <p>Please contact the server <a href="mailto:{{App.SupportEmail}}">administrator</a>.</p>
+    </div>
+</article>
+{% endblock %}

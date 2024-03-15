@@ -1,0 +1,14 @@
+﻿{% extends "Layout.html" %}
+{% block content %}
+<article class="container">
+    <header>
+        <h1>404 - Oops, this page not found</h1>
+    </header>
+    <div class="body">
+        <p>The link „<em class="path">{{Url}}</em>“ might be corrupted</p>
+        <ul>
+            <li>Go back <a href='/'>home</a>.</li>
+        </ul>
+    </div>
+</article>
+{% endblock %}

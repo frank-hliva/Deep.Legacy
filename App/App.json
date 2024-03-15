@@ -1,0 +1,24 @@
+﻿{
+    "AppInfo": {
+        "Name": "Deep Example App",
+        "Email": "app@app.com",
+        "InfoEmail": "info@app.com",
+        "SupportEmail": "support@app.com"
+    },
+    "RouteBuilder": {
+        "Assemblies": [ "App, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" ]
+    },
+    "Controllers": {
+        "Assemblies": [ "App, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" ]
+    },
+    "View": {
+        "Extension": ".html",
+        "Directory": "~/../../View"
+    },
+    "StaticContent": {
+        "Directory": "~/../../Web"
+    },
+    "MemorySession": {
+        "Expiration": 432000
+    }
+}
